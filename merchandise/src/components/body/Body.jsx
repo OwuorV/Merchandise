@@ -7,7 +7,9 @@ const Body = () => {
     <>
       <div className="homeGrid">
         <div className="leftgrid">
-          <h1>Very Intelligent</h1>
+          <h1>
+            Very <p>Intelligent</p>
+          </h1>
           <div className="lower_left">
             <h4>New Look</h4>
             <div className="new_lookImage">
