@@ -1,37 +1,38 @@
 .homeGrid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top: 3rem;
-  padding: 1rem;
   gap: 3rem;
+  height: 80%;
+  width: 90%;
+  overflow: hidden;
 }
 .leftgrid {
   display: grid;
-  gap: 3rem;
+  gap: 1rem;
   grid-template-columns: 1fr;
+  height: 78vh;
 }
 .leftgrid h1 {
   font-family: "Croissant One", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 54px;
+  font-size: 80px;
   color: black;
   text-align: center;
-  line-height: 4rem;
+  line-height: 10rem;
 }
 .lower_left {
   display: flex;
   color: black;
   flex-direction: column;
-  padding: 2rem;
 }
 .lower_left h4 {
   color: black;
   text-align: start;
 }
 .new_lookImage {
-  height: 20rem;
-  width: 20rem;
+  height: 40rem;
+  width: 40rem;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -47,6 +48,7 @@
   overflow: hidden;
   display: flex;
   align-items: center;
+  height: 88vh;
 }
 .right img {
   width: 300%;
