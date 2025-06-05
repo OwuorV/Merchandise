@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./App.css";
 import Nav from "./components/Nav/Nav";
+import "./App.css";
 import Header from "./components/body/Body";
 
 function App() {
