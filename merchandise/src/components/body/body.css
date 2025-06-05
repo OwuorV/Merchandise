@@ -1,0 +1,36 @@
+.croissant-one-regular {
+  font-family: "Croissant One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.homeGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 3rem;
+  padding: 1rem;
+  gap: 3rem;
+}
+.leftgrid {
+  display: grid;
+  gap: 3rem;
+  grid-template-columns: 1fr;
+}
+.leftgrid h1 {
+  font-family: "Croissant One", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 54px;
+  color: black;
+  text-align: center;
+  line-height: 4rem;
+}
+.lower_left {
+  display: flex;
+  color: black;
+  flex-direction: column;
+  padding: 2rem;
+}
+.lower_left h4 {
+  color: black;
+  text-align: start;
+}

@@ -1,0 +1,33 @@
+body {
+  height: 100vh;
+
+  padding: 0;
+}
+.navBar {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.navBar .navHeader {
+  display: inline-flex;
+
+  width: 100%;
+  padding: 0.5rem;
+  justify-content: space-between;
+}
+.navHeader ul {
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+.navBar ul li {
+  list-style: none;
+  text-decoration: none;
+}
+.navBar ul li a {
+  text-decoration: none;
+  font-weight: 600;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  color: rgb(19, 18, 16);
+}
