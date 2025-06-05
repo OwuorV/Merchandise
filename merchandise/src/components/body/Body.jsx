@@ -1,7 +1,7 @@
 import React from "react";
 import "./body.css";
-import IMG1 from "../../assets/mechan1";
-import IMG2 from "../../assets/merch3";
+import IMG1 from "../../assets/mechan1.png";
+import IMG2 from "../../assets/merch3.png";
 const Body = () => {
   return (
     <>
